@@ -1,10 +1,9 @@
-# 136 chars
+# 120 chars
 
 D=1000
-v,l=[0],[0]+[-1]*D
+V,L=[0],[0]+[-1]*D
 for i in range(D):
-    c=v[i]
-    if l[c]==-1:v.append(0)
-    else:v.append(i-l[c])
-    print(v[i])
-    l[c]=i
+	D=V[i]
+	if L[D]==-1:V.append(0)
+	else:V.append(i-L[D])
+	print(V[i]);L[D]=i
